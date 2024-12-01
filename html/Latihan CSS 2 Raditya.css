@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>Latihan CSS</title>
+            <style type="text/css">
+                body {
+                    background-color: white;
+                    margin: 0;
+                    padding: 0;
+                }
+                p {
+                    font-family: Arial, Helvetica, sans-serif; 
+                    font-size: 13px; 
+                    text-align: justify;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                .highlight {
+                    font-weight: bold;
+                    text-align: justify;
+                    font-size: 15px;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                h1 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 25px;
+                    background-color: rgb(81, 83, 83);
+                    color: white;
+                    padding: 20px; 
+                    padding-bottom: 10px;
+                    margin-bottom: 0;
+                }
+                h2 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 10px;
+                    background-color: rgb(81, 83, 83);
+                    color: white;
+                    padding: 20px; 
+                }
+                div {
+                    width: 500px; 
+                    height: 200px; 
+                }
+                li {
+                    list-style-type:none;
+                }
+                ul {
+                    display:flex;
+                    background-color: rgb(174, 168, 168);
+                    margin-top: 0%;
+                    padding-left:0%;
+                    padding-top: 0;
+                    color: white;
+                    padding: 10px;
+                }
+            </style>
+    </head>
+    <body>
+            <h1>Wawan Simple Web Page</h1>
+            <ul>
+                <li>&nbsp; Home &emsp;</li>
+                <li>About &emsp;</li>
+                <li>Contact</li>
+            </ul>
+            <p class="highlight">Welcome to my page</p>
+            <p>A website is a collection of interconnected web pages hosted on a specific domain or server, accessible through the internet. Websites are typically created using web development languages such as HTML, CSS, and JavaScript, and they are designed to present information, services, or tools to users. Each website is identified by a unique URL (Uniform Resource Locator) that allows users to access it via web browsers like Google Chrome, Firefox, or Safari.</p>
+            <p>Websites serve various purposes, ranging from personal blogs, business platforms, educational resources, to complex applications like e-commerce stores and social media networks. Depending on the type of content and functionality, websites can be static, providing fixed information, or dynamic, allowing users to interact with the content or other users through forms, databases, and multimedia elements. Many websites also integrate with other internet services, such as email, social media, and cloud storage, enhancing their reach and functionality.</p>
+            <p>In terms of structure, websites are typically organized into a homepage, which acts as the entry point, and additional pages that are linked through menus or hyperlinks. The design and navigation of a website are crucial for user experience, with elements like responsive design ensuring compatibility with various devices. Effective websites also prioritize accessibility, search engine optimization (SEO), and security to provide a smooth and safe experience for all users.</p>
+            <h2>©2024 My Simple Web Page</h2>
+    </body>
+</html>
